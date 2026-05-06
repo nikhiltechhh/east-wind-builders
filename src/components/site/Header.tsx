@@ -78,29 +78,23 @@ const Header = () => {
           onClick={() => setOpen((v) => !v)}
           className="lg:hidden relative h-10 w-10 flex items-center justify-center text-primary"
         >
-          <AnimatePresence mode="wait" initial={false}>
-            {open ? (
-              <motion.span
-                key="x"
-                initial={{ rotate: -90, opacity: 0 }}
-                animate={{ rotate: 0, opacity: 1 }}
-                exit={{ rotate: 90, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                <X className="h-6 w-6" />
-              </motion.span>
-            ) : (
-              <motion.span
-                key="m"
-                initial={{ rotate: 90, opacity: 0 }}
-                animate={{ rotate: 0, opacity: 1 }}
-                exit={{ rotate: -90, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Menu className="h-6 w-6" />
-              </motion.span>
-            )}
-          </AnimatePresence>
+          <span className="relative block h-5 w-7">
+            <motion.span
+              className="absolute left-0 right-0 h-[2px] bg-current rounded-full origin-center"
+              animate={open ? { top: "50%", rotate: 45 } : { top: "15%", rotate: 0 }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+            />
+            <motion.span
+              className="absolute top-1/2 -translate-y-1/2 right-0 h-[2px] bg-current rounded-full"
+              animate={open ? { width: 0, opacity: 0 } : { width: "60%", opacity: 1 }}
+              transition={{ duration: 0.25 }}
+            />
+            <motion.span
+              className="absolute left-0 right-0 h-[2px] bg-current rounded-full origin-center"
+              animate={open ? { top: "50%", rotate: -45 } : { top: "85%", rotate: 0 }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+            />
+          </span>
         </button>
       </div>
 
