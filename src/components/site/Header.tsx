@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/ewc-logo.jpeg";
 
