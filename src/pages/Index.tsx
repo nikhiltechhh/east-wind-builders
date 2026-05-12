@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import Hero from "@/components/site/Hero";
 import About from "@/components/site/About";
 import Services from "@/components/site/Services";
+import Capabilities from "@/components/site/Capabilities";
 import Approach from "@/components/site/Approach";
 import Projects from "@/components/site/Projects";
 import ProjectCTA from "@/components/site/ProjectCTA";
@@ -28,6 +29,7 @@ const Index = () => {
       <Hero />
       <About />
       <Services />
+      <Capabilities />
       <Approach />
       <Projects />
       <ProjectCTA />
