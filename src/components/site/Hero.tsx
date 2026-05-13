@@ -30,7 +30,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-cream leading-[1.05] max-w-5xl"
         >
-          Crafting Spaces of <em className="text-gold not-italic">Timeless</em> Elegance
+          Where Heritage Meets <em className="text-gold not-italic">Timeless</em> Luxury
         </motion.h1>
 
         <motion.p
@@ -39,7 +39,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="mt-8 max-w-2xl text-cream/85 text-base md:text-lg leading-relaxed"
         >
-          A full-service design and build company turning ideas into exceptional spaces — interiors, construction, materials and turnkey projects, all under one roof.
+          Welcome to East Wind Contractors — where sophisticated interiors blend rich cultural heritage with modern design sensibilities. Handcrafted detail, refined aesthetics, enduring masterpieces.
         </motion.p>
 
         <motion.div
