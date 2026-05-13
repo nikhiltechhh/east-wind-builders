@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import about from "@/assets/about-interior.jpg";
 
 const points = [
-  "Complete Interior Designing",
-  "Construction & Civil Works",
-  "Premium Material Supply",
-  "Turnkey Project Execution",
-  "End-to-End Project Management",
+  "Timeless Traditional Elegance",
+  "Modern Design Sensibility",
+  "Handcrafted Detailing",
+  "Premium Materials & Finishes",
+  "Personalized Concepts",
   "Residential & Commercial",
 ];
 
@@ -30,7 +30,7 @@ const About = () => (
         />
         <div className="hidden md:block absolute -bottom-8 -right-8 bg-primary text-primary-foreground p-8 rounded-sm shadow-elegant max-w-xs">
           <p className="font-display text-5xl text-gold">10+</p>
-          <p className="mt-2 text-sm uppercase tracking-widest">Years of Excellence</p>
+          <p className="mt-2 text-sm uppercase tracking-widest">Years of Craftsmanship</p>
         </div>
       </motion.div>
 
@@ -42,14 +42,14 @@ const About = () => (
       >
         <p className="text-gold tracking-[0.3em] text-xs uppercase mb-4">About Us</p>
         <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary leading-tight">
-          Building more than spaces — <em className="not-italic text-accent">we build trust.</em>
+          A perfect balance of <em className="not-italic text-accent">luxury, comfort &amp; cultural elegance.</em>
         </h2>
         <div className="mt-8 space-y-5 text-muted-foreground leading-relaxed">
           <p>
-            We are a full-service design and build company dedicated to transforming ideas into exceptional spaces. Our expertise spans complete interior designing, construction, material supply, and turnkey project execution — offering a seamless, end-to-end solution under one roof.
+            At East Wind Contractors, every space is designed to feel both grand and welcoming. We pair timeless traditional elements with modern sophistication — intricate detailing, rich textures and handcrafted finishes set against contemporary layouts and premium materials.
           </p>
           <p>
-            From the initial concept to the final handover, we take complete ownership of every stage. We blend creativity with practicality, ensuring every detail reflects purpose, elegance and long-term value.
+            With a passion for excellence, we transform homes, villas, offices and commercial spaces into refined environments that embody style and individuality — true expressions of elegance and timeless beauty.
           </p>
         </div>
         <ul className="mt-8 grid sm:grid-cols-2 gap-3">
