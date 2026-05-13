@@ -9,7 +9,8 @@ const links = [
   { label: "Vision", href: "#vision" },
   { label: "Services", href: "#services" },
   { label: "Capabilities", href: "#capabilities" },
-  { label: "Approach", href: "#approach" },
+  { label: "Why Us", href: "#why-us" },
+  { label: "Leadership", href: "#leadership" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
