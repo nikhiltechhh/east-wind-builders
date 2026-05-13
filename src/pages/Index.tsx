@@ -36,7 +36,10 @@ const Index = () => {
       <Services />
       <Capabilities />
       <Approach />
+      <WhyChooseUs />
       <Projects />
+      <DirectorMessage />
+      <Leadership />
       <ProjectCTA />
       <Contact />
       <Footer />
