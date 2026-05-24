@@ -23,12 +23,12 @@ const pillars = [
   {
     icon: Sparkles,
     title: "Leadership Vision",
-    desc: "Our directors lead with a shared belief that great spaces are created through discipline, creativity and precision — shaped by global exposure and a deep understanding of human comfort.",
+    desc: "Our directors lead with a shared belief that great spaces are created through discipline, creativity and precision shaped by global exposure and a deep understanding of human comfort.",
   },
   {
     icon: Users,
     title: "Collaborative Culture",
-    desc: "Designers, planners, engineers and skilled craftsmen work as one integrated team — ensuring every design is visually exceptional, structurally sound and practically efficient.",
+    desc: "Designers, planners, engineers and skilled craftsmen work as one integrated team ensuring every design is visually exceptional, structurally sound and practically efficient.",
   },
 ];
 
@@ -41,7 +41,7 @@ const Leadership = () => (
           One integrated vision. <em className="not-italic text-accent">Many disciplines.</em>
         </h2>
         <p className="mt-6 text-muted-foreground leading-relaxed">
-          Our leadership blends design, engineering, healthcare discipline, project management and creative arts under one unified vision — bringing together global exposure, technical expertise and traditional craftsmanship.
+          Our leadership blends design, engineering, healthcare discipline, project management and creative arts under one unified vision bringing together global exposure, technical expertise and traditional craftsmanship.
         </p>
       </div>
 
@@ -70,7 +70,7 @@ const Leadership = () => (
             Diverse Expertise Team
           </h3>
           <p className="text-sm text-muted-foreground max-w-md">
-            Professionals drawn from diverse educational and professional backgrounds — united by craft.
+            Professionals drawn from diverse educational and professional backgrounds united by craft.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ const Leadership = () => (
       </div>
 
       <p className="mt-12 max-w-3xl text-sm md:text-base text-muted-foreground italic">
-        At East Wind Contractors, we don't work as separate departments — we work as one integrated vision, driven by passion and precision to create spaces that truly stand out.
+        At East Wind Contractors, we don't work as separate departments, we work as one integrated vision, driven by passion and precision to create spaces that truly stand out.
       </p>
     </div>
   </section>

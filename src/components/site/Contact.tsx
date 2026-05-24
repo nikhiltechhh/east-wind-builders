@@ -27,7 +27,7 @@ const Contact = () => {
             Let's build something <em className="not-italic text-accent">remarkable</em>.
           </h2>
           <p className="mt-6 text-muted-foreground leading-relaxed max-w-md">
-            Whether it's a full home, a commercial fit-out or a turnkey development — we'd love to hear about your vision.
+            Whether it's a full home, a commercial fit-out or a turnkey development, we'd love to hear about your vision.
           </p>
 
           <div className="mt-10 space-y-5">

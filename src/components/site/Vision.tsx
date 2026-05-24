@@ -9,9 +9,9 @@ const pillars = [
     icon: Eye,
     title: "Redefining interiors through tradition & contemporary luxury.",
     paragraphs: [
-      "Our vision is to create environments that are not only visually stunning but deeply meaningful — spaces that reflect individuality, culture, comfort and refined living.",
+      "Our vision is to create environments that are not only visually stunning but deeply meaningful spaces that reflect individuality, culture, comfort and refined living.",
       "Inspired by rich traditional elements and modern architectural excellence, we design interiors that preserve cultural essence while embracing innovation and functionality.",
-      "From luxurious residences and villas to premium commercial environments, we craft interiors that evoke warmth, grandeur and harmony — built to stand the test of time.",
+      "From luxurious residences and villas to premium commercial environments, we craft interiors that evoke warmth, grandeur and harmony built to stand the test of time.",
     ],
     highlights: ["Cultural Essence", "Modern Innovation", "Personalized Concepts", "Exceptional Craftsmanship"],
   },
@@ -50,7 +50,7 @@ const Vision = () => (
           Vision, design philosophy &amp; the craft behind every space.
         </h2>
         <p className="mt-6 text-muted-foreground leading-relaxed">
-          We believe great design is a balance of luxury, functionality and timeless elegance — a thoughtful dialogue between heritage and modernity.
+          We believe great design is a balance of luxury, functionality and timeless elegance a thoughtful dialogue between heritage and modernity.
         </p>
       </div>
 

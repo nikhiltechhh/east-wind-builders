@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       <img
-        src={hero}
+        src="https://i.ibb.co/h1T0JJNP/Whats-App-Image-2026-05-13-at-4-42-02-PM.jpg"
         alt="Luxury interior designed by East Wind Contractors"
         className="absolute inset-0 h-full w-full object-cover"
         width={1920}
@@ -30,7 +30,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-cream leading-[1.05] max-w-5xl"
         >
-          Where Heritage Meets <em className="text-gold not-italic">Timeless</em> Luxury
+       Where Tradition Meets <em className="text-gold not-italic">Modern Elegance</em>
         </motion.h1>
 
         <motion.p
@@ -39,7 +39,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="mt-8 max-w-2xl text-cream/85 text-base md:text-lg leading-relaxed"
         >
-          Welcome to East Wind Contractors — where sophisticated interiors blend rich cultural heritage with modern design sensibilities. Handcrafted detail, refined aesthetics, enduring masterpieces.
+          Welcome to East Wind Contractors where sophisticated interiors blend rich cultural heritage with modern design sensibilities. Handcrafted detail, refined aesthetics, enduring masterpieces.
         </motion.p>
 
         <motion.div

@@ -9,6 +9,9 @@ import Approach from "@/components/site/Approach";
 import WhyChooseUs from "@/components/site/WhyChooseUs";
 import DirectorMessage from "@/components/site/DirectorMessage";
 import Leadership from "@/components/site/Leadership";
+import Map from "@/components/site/Map";
+import Gallery from "@/components/site/Gallery";
+import Blog from "@/components/site/Blog";
 import Projects from "@/components/site/Projects";
 import ProjectCTA from "@/components/site/ProjectCTA";
 import Contact from "@/components/site/Contact";
@@ -40,6 +43,9 @@ const Index = () => {
       <Projects />
       <DirectorMessage />
       <Leadership />
+      <Map />
+      <Gallery />
+      <Blog />
       <ProjectCTA />
       <Contact />
       <Footer />

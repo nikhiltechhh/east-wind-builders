@@ -6,14 +6,14 @@ const groups = [
     icon: Home,
     title: "Residential Interiors",
     tag: "Live beautifully",
-    desc: "Homes that reflect comfort, personality and refined living — balancing luxury with everyday functionality.",
+    desc: "Homes that reflect comfort, personality and refined living balancing luxury with everyday functionality.",
     items: ["Flats & Apartments", "Villas", "Farmhouses"],
   },
   {
     icon: Building2,
     title: "Commercial Interiors",
     tag: "Designed for impact",
-    desc: "Dynamic spaces that elevate brand identity, productivity and customer experience — tailored to industry needs.",
+    desc: "Dynamic spaces that elevate brand identity, productivity and customer experience tailored to industry needs.",
     items: [
       "Office Design (Corporate · Startups · Co-working)",
       "Hospitality (Showrooms · Restaurants · Cafés · Resorts)",
@@ -27,7 +27,7 @@ const groups = [
     icon: Wrench,
     title: "Renovation Services",
     tag: "Reimagine your space",
-    desc: "Transform existing spaces into modern, functional and aesthetically upgraded environments — with minimal disruption.",
+    desc: "Transform existing spaces into modern, functional and aesthetically upgraded environments with minimal disruption.",
     items: ["Residential Renovation", "Commercial Renovation", "Space Upgrade & Remodeling"],
   },
 ];
@@ -80,7 +80,7 @@ const Services = () => (
       </div>
 
       <p className="mt-12 max-w-3xl text-sm md:text-base text-muted-foreground italic">
-        Every project is executed with precision, creativity and a commitment to excellence — spaces that are visually striking, meaningful, functional and built to last.
+        Every project is executed with precision, creativity and a commitment to excellence spaces that are visually striking, meaningful, functional and built to last.
       </p>
     </div>
   </section>

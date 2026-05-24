@@ -12,6 +12,7 @@ const links = [
   { label: "Why Us", href: "#why-us" },
   { label: "Leadership", href: "#leadership" },
   { label: "Projects", href: "#projects" },
+  { label: "Survey & Mapping", href: "#survey" },
   { label: "Contact", href: "#contact" },
 ];
 

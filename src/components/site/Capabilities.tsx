@@ -17,10 +17,10 @@ const Capabilities = () => {
         <div className="max-w-2xl">
           <p className="text-gold tracking-[0.3em] text-xs uppercase mb-4">Our Capabilities</p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary leading-tight">
-            Every space, every style — crafted with intent.
+            Every space, every style crafted with intent.
           </h2>
           <p className="mt-6 text-base md:text-lg text-muted-foreground leading-relaxed">
-            Exteriors, interiors and renovations across residential and commercial projects — with
+            Exteriors, interiors and renovations across residential and commercial projects with
             deep specialization in sustainable, vernacular and heritage Indian design.
           </p>
         </div>
@@ -120,7 +120,7 @@ const Capabilities = () => {
           ))}
         </Tabs>
 
-        <ProcessTimeline />
+        {/* <ProcessTimeline /> */}
       </div>
 
       <CapabilityModal capability={active} onOpenChange={(o) => !o && setActive(null)} />

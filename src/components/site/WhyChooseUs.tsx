@@ -30,7 +30,7 @@ const reasons = [
   {
     icon: Compass,
     title: "Timeless & Soulful",
-    desc: "Spaces that feel familiar, comforting and rooted — built to remain meaningful for years.",
+    desc: "Spaces that feel familiar, comforting and rooted built to remain meaningful for years.",
   },
 ];
 
@@ -43,7 +43,7 @@ const WhyChooseUs = () => (
           Spaces that feel <em className="not-italic text-accent">personal, emotional &amp; rooted.</em>
         </h2>
         <p className="mt-6 text-muted-foreground leading-relaxed">
-          We don't just design spaces — we create environments shaped with care, intention and a deep respect for tradition, culture and timeless living. Choosing East Wind Contractors is choosing a design journey that reconnects you with heritage and transforms your space into something truly soulful.
+          We don't just design spaces we create environments shaped with care, intention and a deep respect for tradition, culture and timeless living. Choosing East Wind Contractors is choosing a design journey that reconnects you with heritage and transforms your space into something truly soulful.
         </p>
       </div>
 
