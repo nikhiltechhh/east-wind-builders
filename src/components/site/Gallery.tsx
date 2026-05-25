@@ -249,15 +249,15 @@ const Gallery = () => {
   return (
     <section id="gallery" className="py-24 md:py-32 bg-background overflow-hidden">
       <div className="container mb-10">
-        <p className="text-gold tracking-[0.3em] text-xs uppercase mb-4">Our Work</p>
+        {/* <p className="text-gold tracking-[0.3em] text-xs uppercase mb-4">Our Work</p> */}
         <div className="flex items-end justify-between flex-wrap gap-4">
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary leading-tight">
-             EWC {" "}
+              {" "}
             <em className="not-italic text-accent">Creative Corner</em>
           </h2>
-          <p className="text-sm text-muted-foreground max-w-sm">
+          {/* <p className="text-sm text-muted-foreground max-w-sm">
             A selection of completed projects across residential, commercial and infrastructure design.
-          </p>
+          </p> */}
         </div>
       </div>
 

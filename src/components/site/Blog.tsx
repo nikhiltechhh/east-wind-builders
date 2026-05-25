@@ -110,7 +110,7 @@ const Furniture = () => {
         </div>
 
         {/* Category filter */}
-        <div className="flex flex-wrap gap-2 mb-10">
+        {/* <div className="flex flex-wrap gap-2 mb-10">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -124,7 +124,7 @@ const Furniture = () => {
               {cat}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Grid */}
         <motion.div

@@ -440,7 +440,7 @@ const PhaseCard = ({ phase, index }) => {
         <span className="text-[10px] font-medium tracking-widest uppercase flex-1 text-white/70">
           {phase.label}
         </span>
-        <span className="text-[9px] text-white/30">{phase.steps}</span>
+        {/* <span className="text-[9px] text-white/30">{phase.steps}</span> */}
       </div>
 
       {/* Animated icon strip */}

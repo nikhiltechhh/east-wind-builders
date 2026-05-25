@@ -4,6 +4,7 @@ import Hero from "@/components/site/Hero";
 import About from "@/components/site/About";
 import Vision from "@/components/site/Vision";
 import Services from "@/components/site/Services";
+import Landscape from "@/components/site/Landscape";
 import Capabilities from "@/components/site/Capabilities";
 import Approach from "@/components/site/Approach";
 import WhyChooseUs from "@/components/site/WhyChooseUs";
@@ -37,6 +38,7 @@ const Index = () => {
       <About />
       <Vision />
       <Services />
+      <Landscape />
       <Capabilities />
       <Approach />
       <WhyChooseUs />

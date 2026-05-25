@@ -26,6 +26,7 @@ const DirectorMessage = () => (
       >
         Director's Message
       </motion.p>
+    
 
       <motion.h2
         initial={{ opacity: 0, y: 10 }}
@@ -59,7 +60,7 @@ const DirectorMessage = () => (
         <div className="mt-5 flex items-center gap-3">
           <div className="h-px w-8 bg-gold/40" />
           <div>
-            <p className="font-display text-sm text-cream">Dr. Mouni Teja Maharaj, M.D</p>
+            <p className="font-display text-sm text-cream">Dr. Maharaj, M.D</p>
             <p className="text-[10px] tracking-[0.2em] uppercase text-gold/60">Founder &amp; Director</p>
           </div>
         </div>

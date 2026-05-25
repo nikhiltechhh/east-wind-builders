@@ -48,7 +48,7 @@ export const categories: CapabilityCategory[] = [
         id: "exteriors",
         title: "Exteriors",
         subtitle: "Facades, landscapes & curb appeal",
-        image: exteriors,
+        image: "https://i.pinimg.com/1200x/e8/7f/be/e87fbe559ab972ec7927fbc93c79ca57.jpg",
         shortDesc: "Striking facades, elevations and outdoor spaces.",
         longDesc:
           "We craft exteriors that make a lasting first impression — from material-rich facades and elegant elevations to landscaping, hardscaping and outdoor lighting. Every exterior is engineered for climate, light and longevity.",
@@ -85,7 +85,7 @@ export const categories: CapabilityCategory[] = [
         id: "flats",
         title: "Flats & Apartments",
         subtitle: "Smart, flexible city living",
-        image: flats,
+        image: "https://i.pinimg.com/736x/ac/03/58/ac0358d744102ca461fc26c135b96b02.jpg",
         shortDesc: "Maximise every square foot of urban living.",
         longDesc:
           "Apartments and flats designed for the realities of city life — clever storage, flexible zones, refined finishes and lighting that makes compact homes feel expansive.",
@@ -95,7 +95,7 @@ export const categories: CapabilityCategory[] = [
         id: "villas",
         title: "Villas",
         subtitle: "Private residences crafted in detail",
-        image: villas,
+        image: "https://i.pinimg.com/1200x/61/d5/be/61d5beb8681d8b13e525e2a388466309.jpg",
         shortDesc: "Bespoke villas built around your lifestyle.",
         longDesc:
           "From grand entrances to private courtyards and pool decks, we design villas as unified architectural statements — every façade, room and finish curated to feel distinctly yours.",
@@ -105,7 +105,7 @@ export const categories: CapabilityCategory[] = [
         id: "farmhouse",
         title: "Farm Houses",
         subtitle: "Retreats rooted in nature",
-        image: farmhouse,
+        image: "https://i.pinimg.com/736x/ee/21/b0/ee21b022b3ea10efd47c6915a02d4d59.jpg",
         shortDesc: "Country homes that breathe with the land.",
         longDesc:
           "Farm houses designed for slow living — wide verandahs, courtyards, natural materials and passive cooling, balanced with refined modern comfort.",
@@ -205,16 +205,16 @@ export const categories: CapabilityCategory[] = [
           "Contemporary interiors blend current trends with timeless detailing — mixed textures, curated art and warm neutrals layered for depth.",
         features: ["Mixed Textures", "Curated Art", "Warm Neutrals", "Statement Pieces"],
       },
-      {
-        id: "minimalist",
-        title: "Minimalist",
-        subtitle: "Less, but better",
-        image: styleMinimalist,
-        shortDesc: "Quiet spaces with intentional restraint.",
-        longDesc:
-          "Pared-back palettes, hidden storage and meticulous detailing. Every element earns its place — and the empty space does the heavy lifting.",
-        features: ["Restrained Palette", "Hidden Storage", "Precise Detailing", "Negative Space"],
-      },
+     {
+  id: "landscaping",
+  title: "Landscaping",
+  subtitle: "Nature in harmony",
+  image: "https://i.pinimg.com/1200x/e8/7f/be/e87fbe559ab972ec7927fbc93c79ca57.jpg",
+  shortDesc: "Beautiful outdoor spaces designed to feel calm, natural, and inviting.",
+  longDesc:
+    "Thoughtfully planned greenery, organic textures, and balanced outdoor layouts come together to create refreshing environments that connect architecture with nature.",
+  features: ["Landscape Design", "Natural Greenery", "Outdoor Harmony", "Organic Textures"],
+},
       {
         id: "classic",
         title: "Classic Luxury",

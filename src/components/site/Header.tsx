@@ -36,32 +36,37 @@ const Header = () => {
       }`}
     >
       <div className="container flex items-center justify-between">
-        <a href="#home" className="flex items-center gap-3">
+        {/* Logo + Name */}
+        <a href="#home" className="flex items-center gap-2 md:gap-3">
           <img
             src={logo}
             alt="East Wind Contractors logo"
             className={`transition-all duration-500 rounded-sm ${
-              scrolled ? "h-12 w-12" : "h-16 w-16"
+              scrolled
+                ? "h-10 w-10 md:h-12 md:w-12"
+                : "h-12 w-12 md:h-14 md:w-14 lg:h-16 lg:w-16"
             }`}
-            width={64}
-            height={64}
           />
-          <div className="hidden sm:flex flex-col leading-tight">
-            <span className="font-display text-xl md:text-2xl font-semibold text-primary">
+          <div className="flex flex-col leading-tight">
+            <span className="font-display text-lg md:text-xl lg:text-2xl font-semibold text-primary">
               East Wind
             </span>
-            <span className="text-[10px] md:text-xs tracking-[0.3em] text-muted-foreground uppercase">
+            <span className="text-[9px] md:text-[10px] lg:text-xs tracking-[0.25em] md:tracking-[0.3em] text-muted-foreground uppercase">
               Contractors
+            </span>
+            <span className="text-[8px] md:text-[9px] lg:text-[10px] tracking-[0.08em] md:tracking-[0.12em] text-gold mt-0.5 uppercase">
+              Spaces Become Soulful Experiences
             </span>
           </div>
         </a>
 
-        <nav className="hidden lg:flex items-center gap-10">
+        {/* Desktop Nav — hidden below lg (1024px) */}
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-10">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary relative group transition-colors"
+              className="text-xs xl:text-sm font-medium text-foreground/80 hover:text-primary relative group transition-colors whitespace-nowrap"
             >
               {l.label}
               <span className="absolute -bottom-1 left-0 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full" />
@@ -69,13 +74,7 @@ const Header = () => {
           ))}
         </nav>
 
-        <a
-          href="tel:6359595978"
-          className="hidden md:inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-sm text-sm font-medium hover:bg-espresso transition-colors"
-        >
-          <Phone className="h-4 w-4" /> 6359595978
-        </a>
-
+        {/* Hamburger — visible on tablet and mobile (below lg) */}
         <button
           aria-label="Toggle menu"
           aria-expanded={open}
@@ -102,6 +101,7 @@ const Header = () => {
         </button>
       </div>
 
+      {/* Mobile / Tablet Drawer */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -125,12 +125,6 @@ const Header = () => {
                   {l.label}
                 </motion.a>
               ))}
-              <a
-                href="tel:6359595978"
-                className="mt-4 inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-sm font-medium"
-              >
-                <Phone className="h-4 w-4" /> Call 6359595978
-              </a>
             </nav>
           </motion.div>
         )}

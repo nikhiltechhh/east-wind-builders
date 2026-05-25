@@ -7,12 +7,12 @@ import hero from "@/assets/hero-interior.jpg";
 import about from "@/assets/about-interior.jpg";
 
 const items = [
-  { img: p1, title: "Master Bedroom Suite", tag: "Residential" },
-  { img: p2, title: "Heritage Dining Room", tag: "Residential" },
-  { img: p3, title: "Corporate Lobby", tag: "Commercial" },
-  { img: p4, title: "Spa Bathroom", tag: "Residential" },
-  { img: hero, title: "Open Living Space", tag: "Turnkey" },
-  { img: about, title: "Lounge Detailing", tag: "Interior" },
+  { img: "https://i.pinimg.com/1200x/8a/d3/d3/8ad3d3d9e170b9ea572db0257ff05f21.jpg", title: "Master Bedroom Suite", tag: "Residential" },
+  { img: "https://i.pinimg.com/736x/fd/ce/cf/fdcecfa3b1a5f4d89d74ced197869036.jpg", title: "Heritage Dining Room", tag: "Residential" },
+  { img: "https://i.pinimg.com/1200x/f3/eb/fb/f3ebfba4e95988ef98d1fa0834c763a9.jpg", title: "Corporate Lobby", tag: "Commercial" },
+  { img: "https://i.pinimg.com/736x/e9/33/e3/e933e3427a7ad5571098b58aa5b7b347.jpg", title: "Spa Bathroom", tag: "Residential" },
+  { img: "https://i.pinimg.com/1200x/83/0a/8f/830a8fedbfdcc72f823ae98e06c501f5.jpg", title: "Open Living Space", tag: "Turnkey" },
+  { img: "https://i.pinimg.com/1200x/85/ed/95/85ed959fab841411bd34274d84a1a9cf.jpg", title: "Lounge Detailing", tag: "Interior" },
 ];
 
 const Projects = () => (

@@ -70,7 +70,7 @@ const Services = () => (
             <ul className="mt-6 space-y-2.5 border-t border-border/60 pt-5">
               {g.items.map((it) => (
                 <li key={it} className="flex items-start gap-3 text-sm text-foreground/85">
-                  <span className="mt-2 h-1 w-3 bg-gold flex-shrink-0" />
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold flex-shrink-0" />
                   {it}
                 </li>
               ))}
